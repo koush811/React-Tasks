@@ -1,14 +1,29 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
+import "./components.css"
 
 function Header(){
 
-
     return(
         <header>
-            <h2>（名前）</h2>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <h2>Ito Kosei Portfolio</h2>
+            
+            <div className="links">
+                <NavLink to="/" 
+                    className={({isActive}) => 
+                        isActive ? "active" : ""
+                    }
+                >
+                    Home
+                </NavLink>
+                <NavLink to="/about" 
+                    className={({isActive}) => 
+                        isActive ? "active" : ""
+                    }
+                >
+                    About
+                </NavLink>
+            </div>
         </header>
     )
 }
