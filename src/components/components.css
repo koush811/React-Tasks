@@ -8,7 +8,6 @@ header{
     background-color: rgb(228, 228, 228);
 }
 
-
 .links a{
     text-decoration: none;
     color: black;
@@ -17,4 +16,11 @@ header{
 
 .active{
     border-bottom: solid 1px blue;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -1,8 +1,15 @@
-
+import "./components.css"
 
 function Home(){
     return(
-        <h1>Contents</h1>
+        <>
+            <main>
+                <div>
+                    <h2>About Me</h2>
+                </div>
+            </main>
+        
+        </>
     )
 }
 
