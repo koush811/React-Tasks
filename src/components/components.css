@@ -24,3 +24,21 @@ main{
     flex-direction: column;
     align-items: center;
 }
+
+.title-content{
+    position: relative;
+}
+
+.main-img{
+    width: 100vw;
+    object-fit: cover;
+    max-height: 300px;
+    
+}
+
+.page-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
