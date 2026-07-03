@@ -18,5 +18,23 @@ const cardContent = [
         img: "src/imgs/miku.jpg"
     }
 ]
+const quizData = [
+    {
+        id: 1,
+        name: " クイズ1",
+        text: "テキストーーーー",
+    },
+    {
+        id: 2,
+        name: "クイズ2",
+        text: "テキストーーーー",
+    },
+    {
+        id: 3,
+        name: "カード3",
+        text: "テキストーーーー",
+    }
+]
 
 export default cardContent
+export default quizData
