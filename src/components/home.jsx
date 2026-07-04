@@ -1,5 +1,7 @@
 import "./components.css"
 import img from "../imgs/sample.png"
+import Quiz from "./quiz"
+
 
 function Home(){
     return(
@@ -9,7 +11,7 @@ function Home(){
                     <img src={img} alt="" className="main-img"></img>
                     <h2 className="page-title">Home</h2>
                 </div>
-
+                <Quiz></Quiz>
                 
             </main>
         

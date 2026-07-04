@@ -1,7 +1,7 @@
 import img from "../imgs/404.png"
 import "./components.css"
 import Card from "./card"
-import cardContent from "../data/data"
+import { cardContent } from "../data/data"
 
 function About(){
     return(

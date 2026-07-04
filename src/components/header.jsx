@@ -6,7 +6,7 @@ function Header(){
 
     return(
         <header>
-            <h2>Ito Kosei Portfolio</h2>
+            <h2>Title</h2>
             
             <div className="links">
                 <NavLink to="/" 

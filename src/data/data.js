@@ -1,4 +1,4 @@
-const cardContent = [
+export const cardContent = [
     {
         id: 1,
         name: "カード１",
@@ -18,23 +18,29 @@ const cardContent = [
         img: "src/imgs/miku.jpg"
     }
 ]
-const quizData = [
+
+export const quizData = [
     {
         id: 1,
         name: " クイズ1",
-        text: "テキストーーーー",
+        select1: "1",
+        select2: "2",
+        answer: "1",
     },
     {
         id: 2,
         name: "クイズ2",
-        text: "テキストーーーー",
+        select1: "1",
+        select2: "2",
+        answer: "2",
     },
     {
         id: 3,
-        name: "カード3",
-        text: "テキストーーーー",
+        name: "クイズ3",
+        select1: "1",
+        select2: "2",
+        answer: "1",
     }
 ]
 
-export default cardContent
-export default quizData
+  
