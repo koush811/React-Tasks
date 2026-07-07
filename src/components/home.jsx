@@ -1,6 +1,7 @@
 import "./components.css"
 import img from "../imgs/sample.png"
 import Quiz from "./quiz"
+import Comment from "./comment"
 
 
 function Home(){
@@ -12,7 +13,7 @@ function Home(){
                     <h2 className="page-title">Home</h2>
                 </div>
                 <Quiz></Quiz>
-                
+                <Comment></Comment>
             </main>
         
         </>

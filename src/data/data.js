@@ -3,19 +3,22 @@ export const cardContent = [
         id: 1,
         name: "カード１",
         text: "テキストーーーー",
-        img: "src/imgs/1-392a39b8.jpg"
+        img: "src/imgs/1-392a39b8.jpg",
+        star: "1"
     },
     {
         id: 2,
         name: "カード１",
         text: "テキストーーーー",
-        img: "src/imgs/9a5165d9180661b9012578ee91783576.jpeg"
+        img: "src/imgs/9a5165d9180661b9012578ee91783576.jpeg",
+        star: "2"
     },
     {
         id: 3,
         name: "カード１",
         text: "テキストーーーー",
-        img: "src/imgs/miku.jpg"
+        img: "src/imgs/miku.jpg",
+        star: "3"
     }
 ]
 

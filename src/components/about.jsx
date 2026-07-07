@@ -13,7 +13,7 @@ function About(){
         
             <div className="card-area">
                 {cardContent.map(card => (
-                    <Card key={card.id} name={card.name} text={card.text} img={card.img}></Card>
+                    <Card key={card.id} name={card.name} text={card.text} img={card.img} star={card.star}></Card>
                 ))}
             </div>
         </>        

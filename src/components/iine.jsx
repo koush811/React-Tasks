@@ -3,7 +3,9 @@ import "./components.css"
 
 function Iine(){
 
-    const [count,setCount] = useState({Good: 0, Bad: 0, OK: 0})
+    const [count,setCount
+        
+    ] = useState({Good: 0, Bad: 0, OK: 0})
 
     const Goodclick = () => {
         setCount({

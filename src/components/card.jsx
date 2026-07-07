@@ -10,6 +10,7 @@ function Card(props) {
                 <h2>{props.name}</h2>
                 <img className="card-img" src={props.img} alt="" />
                 <p>{props.text}</p>
+                <p>評価：{props.star}/3</p>
                 <Iine></Iine>
             </div>
         </>
