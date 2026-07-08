@@ -2,6 +2,7 @@ import "./components.css"
 import img from "../imgs/sample.png"
 import Quiz from "./quiz"
 import Comment from "./comment"
+import Timer from "./timer"
 
 
 function Home(){
@@ -14,6 +15,7 @@ function Home(){
                 </div>
                 <Quiz></Quiz>
                 <Comment></Comment>
+                <Timer></Timer>
             </main>
         
         </>
