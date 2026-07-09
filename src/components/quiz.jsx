@@ -60,6 +60,7 @@ function Quiz() {
 
   return (
     <div className="quiz-content">
+        <h1>Task4</h1>
         {currentQuiz && (
           <div className="quiz-area">
             <div>問題文: {currentQuiz.name}</div>

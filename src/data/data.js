@@ -8,14 +8,14 @@ export const cardContent = [
     },
     {
         id: 2,
-        name: "カード１",
+        name: "カード２",
         text: "テキストーーーー",
         img: "src/imgs/9a5165d9180661b9012578ee91783576.jpeg",
         star: "2"
     },
     {
         id: 3,
-        name: "カード１",
+        name: "カード３",
         text: "テキストーーーー",
         img: "src/imgs/miku.jpg",
         star: "3"

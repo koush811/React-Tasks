@@ -43,6 +43,7 @@ function Timer() {
 
     return (
         <div className="timer">
+            <h1>Task3</h1>
             <div>
                 設定時間：
                 <input type="number" value={startTime} onChange={(e) => {setStartTime(e.target.value)}}/>

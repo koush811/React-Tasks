@@ -23,6 +23,7 @@ function About(){
             </div>
         
             <div className="card-area">
+                <h1>Task1 2 6</h1>
                 <select value={sortType} onChange={(e) => setSortType(e.target.value)}>
                     <option value="normal">通常</option>
                     <option value="sort">評価順</option>

@@ -15,6 +15,7 @@ const Fetch  = ()=>{
 
     return (
         <div>
+            <h1>Task7</h1>
             <ul>
                 {
                     posts.map(post => <li key={post.id}>{post.title}</li>)

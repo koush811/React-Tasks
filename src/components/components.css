@@ -1,23 +1,27 @@
-
+*{
+    box-sizing: border-box;
+}
 
 header{
     display: flex;
-    max-width: 100%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(228, 228, 228);
+    color: rgb(255, 255, 255);
+    background-color: rgba(27, 27, 27, 0.747);
+    position: fixed;
+    z-index: 100;
+    padding: 10px 50px;
 }
 
 .links a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 5px 10px;
 }
 
 .active{
-    border-bottom: solid 1px blue;
+    border-bottom: solid 2px rgb(0, 153, 255);
 }
 
 main{
@@ -46,15 +50,16 @@ main{
 }
 
 .card-area{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(97, 97, 97);
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    color: white;
 }
 
 .card-content{
     width: 80%;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,19 +94,19 @@ main{
 }
 
 .quiz-content{
-    background-color: rgb(178, 219, 216);
+    background-color: rgb(161, 161, 161);
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 300px;
+    padding: 30px 0px;
 }
 
 .quiz-area{
     width: 80%;
     background-color: rgb(255, 255, 255);
-    border:  solid 3px rgb(0, 80, 172);
+    border:  solid 3px rgb(58, 89, 124);
     padding: 40px;
     border-radius: 20px;
     display: flex;
@@ -120,7 +125,7 @@ main{
 
 .quiz-btn{
     background-color: #FFF;
-    border: solid 1px gray;
+    border: solid 2px gray;
     border-radius: 10px;
     width: 50%;
     height: 40px;
@@ -128,7 +133,7 @@ main{
 }
 
 .quiz-btn:hover{
-    border: solid 2px rgb(0, 132, 194);
+    border: solid 3px rgb(57, 121, 153);
     box-sizing: border-box;
 }
 
@@ -138,6 +143,7 @@ main{
     align-items: center;
     width: 100%;
     padding: 20px 0;
+    background-color: rgb(236, 236, 236);
 }
 
 .view-area{
@@ -166,7 +172,7 @@ main{
     justify-content: center;
     gap: 10px;
     padding: 20px;
-    background-color: rgb(161, 211, 208);
+    background-color: rgb(161, 161, 161);
 }
 
 .timer input{
