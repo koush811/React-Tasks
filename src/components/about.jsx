@@ -3,6 +3,7 @@ import "./components.css"
 import Card from "./card"
 import { cardContent } from "../data/data"
 import { useState } from "react"
+import TaskForm from "./TaskForm"
 
 function About(){
 
@@ -32,6 +33,7 @@ function About(){
                     <Card key={card.id} name={card.name} text={card.text} img={card.img} star={card.star}></Card>
                 ))}
             </div>
+            <TaskForm></TaskForm>
         </>        
     )
 }
